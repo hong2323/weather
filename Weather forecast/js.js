@@ -58,8 +58,8 @@ $(document).ready(() => {
   }
 
   function updateWeatherInfo(lat, lon) {
-    let secretKey = "9b0af02f1ad5f739d0fd7a754e459238";
-    let requestURL = `https://api.darksky.net/forecast/${secretKey}/${lat},${lon}`;
+    let secretKey = "a29ec4259021c50fcd06fe569f1ef7bf";
+    let requestURL = `https://api.darksky.net/forecast/a29ec4259021c50fcd06fe569f1ef7bf/37.8267,-122.4233`;
 
     $.getJSON(requestURL, info => {
       highlightView();

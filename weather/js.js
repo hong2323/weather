@@ -6,7 +6,7 @@ Vue.component('weather-day', {
   computed: {
     weekday() {
       let d = new Date(this.day.Date);
-      let days = [ "Thứ Hai", "Thứ Ba", "Thứ Tư", "Thứ Năm", "Thứ Sáu", "Thứ Bảy", "Chủ nhật"];
+      let days = [ "Monday", "Tuesday", "Wednesday ", "Thursday ", "Friday", "Saturday", "Sunday"];
       return days[d.getDay()];
     },
 
